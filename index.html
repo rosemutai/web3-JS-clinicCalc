@@ -11,8 +11,8 @@
 
       <main class='main-content w-10/12 bg-gray-300'>
             <section class='display-area flex flex-col justify-between p-8 items-end mt-40 md:mt-10 h-64 text-gray-500 dark:text-gray-100'>
-                <p class='input bg-slate-100 w-full py-2'>3 + 3</p>
-                <h3 class='results text-3xl font-bold'>0</h3>
+                <p id="display-area" class='input bg-slate-100 w-full py-2'>3 + 3</p>
+                <h3 id="results" class='text-3xl font-bold'>0</h3>
             </section>
 
              
@@ -40,7 +40,7 @@
                      bg-orange-400 hover:bg-orange-300 font-bold"> /
                 </div>
 
-                <div  class="grid-item seven flex justify-center items-center 
+                <div onclick="appendNumber()" id="seven"  class="grid-item seven flex justify-center items-center 
                     bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">7
                 </div>
 
@@ -107,6 +107,6 @@
             </section>
         </main>
 
-        <script src="app.js"></script>
+        <script src="calculator.js"></script>
 </body>
 </html>
