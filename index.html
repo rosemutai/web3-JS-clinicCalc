@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" bg-slate-200 dark:bg-gray-900 w-full  h-full text-gray-500 dark:text-gray-100 pb-12 md:w-3/6 md:h-2/6 md:mx-auto">
+
+      <main class='main-content w-10/12 bg-gray-300'>
+            <section class='display-area flex flex-col justify-between p-8 items-end mt-40 md:mt-10 h-64 text-gray-500 dark:text-gray-100'>
+                <p class='input bg-slate-100 w-full py-2'>3 + 3</p>
+                <h3 class='results text-3xl font-bold'>0</h3>
+            </section>
+
+             
+
+            <section class='numbers-operators  gap-y-1 gap-x-1 grid grid-rows-5 grid-cols-4 
+                w-10/12 rounded-lg shadow shadow-gray-600 z-50 mx-auto h-screen font-extrabold bg-slate-200 dark:bg-gray-900'>
+
+                <div class="grid-item clearall w-full flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">C
+                </div>
+
+                <div  class="grid-item delete-one flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2
+                            2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z" />
+                    </svg>
+                </div>
+
+                <div class="grid-item percent flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">%
+                </div>
+                
+                <div  class="grid-item text-3xl division flex justify-center items-center 
+                     bg-orange-400 hover:bg-orange-300 font-bold"> /
+                </div>
+
+                <div  class="grid-item seven flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">7
+                </div>
+
+                <div class="grid-item eight flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">8
+                </div>
+
+                <div class="grid-item nine flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">9
+                </div>
+
+
+                <div class="grid-item text-3xl times flex justify-center items-center 
+                     bg-orange-400 hover:bg-orange-300 font-bold">x
+                </div>
+
+                <div class="grid-item four flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">4
+                </div>
+
+                <div class="grid-item five flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">5
+                </div>
+
+                <div class="grid-item six flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">6
+                </div>
+
+                <div class="grid-item text-3xl minus flex justify-center items-center 
+                     bg-orange-400 hover:bg-orange-300 font-bold">-
+                </div>
+
+                <div class="grid-item one flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">1
+                </div>
+
+                <div class="grid-item two flex justify-center items-center
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">2
+                </div>
+
+                <div class="grid-item three flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">3
+                </div>
+
+                <div class="grid-item text-3xl plus flex justify-center items-center 
+                    bg-orange-400 hover:bg-orange-300 font-bold">+
+                </div>
+
+                <div class="grid-item negative flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">+/-
+                </div>
+
+                <div class="grid-item zero flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">0
+                </div>
+
+                <div class="grid-item decimal flex justify-center items-center 
+                    bg-slate-100 hover:bg-slate-50 dark:bg-gray-800 dark:hover:bg-gray-700">.
+                </div>
+
+                <div class="grid-item text-3xl equalsto flex justify-center items-center 
+                    bg-orange-400 hover:bg-orange-300 font-bold">=
+                </div>
+            </section>
+        </main>
+</body>
+</html>
